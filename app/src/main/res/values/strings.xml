@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Swahili Deen</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_social">Jamii</string>
+    <string name="title_prayer">Salah</string>
+    <string name="title_questions">Maswali</string>
+    <string name="title_quran">Quran</string>
+</resources>

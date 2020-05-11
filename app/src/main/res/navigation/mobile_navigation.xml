@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_prayer">
+
+    <fragment
+        android:id="@+id/navigation_social"
+        android:name="com.example.swahilideen.ui.social.SocialFragment"
+        android:label="@string/title_social"
+        tools:layout="@layout/fragment_social" />
+
+    <fragment
+        android:id="@+id/navigation_prayer"
+        android:name="com.example.swahilideen.ui.prayer.PrayerFragment"
+        android:label="@string/title_prayer"
+        tools:layout="@layout/fragment_prayer" />
+
+    <fragment
+        android:id="@+id/navigation_questions"
+        android:name="com.example.swahilideen.ui.questions.QuestionsFragment"
+        android:label="@string/title_questions"
+        tools:layout="@layout/fragment_questions" />
+
+    <fragment
+        android:id="@+id/navigation_quran"
+        android:name="com.example.swahilideen.ui.quran.QuranFragment"
+        android:label="@string/title_quran"
+        tools:layout="@layout/fragment_quran" />
+
+</navigation>
